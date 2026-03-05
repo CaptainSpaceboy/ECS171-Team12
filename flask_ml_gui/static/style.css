@@ -1,0 +1,9 @@
+.title{
+    text-align: center;
+    color: red;
+}
+
+.inputDiv{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../static/style.css">
+<head>
+<meta charset="UTF-8">
+<title>Machine Learning Classification</title>
+</head>
+<body>
+<h1 class="title">Machine Learning Classification</h1>
+<form method="POST" action="/predict">
+<h2>Enter Team Stats</h2>
+<div class="inputDiv">
+<input type="text" name="input" id="input" required>
+</div>
+
+<button type="submit">Predict</button>
+
+<p>{{predictions}}</p>
+<p>{{preprocessed_data}}</p>
+</form>
+</body>
+</html>
